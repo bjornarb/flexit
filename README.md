@@ -4,7 +4,8 @@ Flexit
 Flexit is a small set of CSS classes for rapidly creating fixed height application layouts using CSS Flexbox.
 
 If you want to use Flexit in production you need to consider browser support. CSS Flexbox is currently supported by the latest
-releases of all major browsers. For support in older browser releases see: http://caniuse.com/#search=flexbox
+releases of all major browsers.
+For support in older browser releases see: http://caniuse.com/#search=flexbox
 
 ##Usage
 Flexit is intended for fixed height application layouts but can also be inside a single div. If you are using it for a
