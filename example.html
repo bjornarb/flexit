@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="hf">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Flexit example</title>
+    <link rel="stylesheet" href="flexit.css">
+    <style>
+
+      body, h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+      }
+
+      body, h1, h2, h3, h4, h5, h6, button {
+        font-weight: 200;
+        font-family: 'Helvetica', 'Arial', 'sans-serif';
+      }
+
+      body, button {
+        font-size: 14px;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: none;
+        text-align: left;
+        padding: 10px 10px;
+        border-bottom: solid 1px rgb(86,136,168);
+      }
+
+      a {
+        color: rgb(86,136,168);
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+
+  <body class="vbox hf debug">
+
+    <!-- Navigation -->
+    <div class="hbox hg3 p3 vac">
+      <h2>Flexit</h2>
+      <div class="hbox hg2 flex">
+        <a href="">Products</a>
+        <a href="">Services</a>
+        <a href="">Clients</a>
+        <a href="">Categories</a>
+      </div>
+      <div class="hbox hg2 vac">
+        <a href="">Help</a>
+        <a href="">Account</a>
+      </div>
+    </div>
+
+    <!-- Content container -->
+    <div class="hbox hg4 flex">
+
+      <!-- Sidebar -->
+      <div class="vbox vg1 hu3 p3 scroll">
+        <button>Item 1</button>
+        <button>Item 2</button>
+        <button>Item 3</button>
+        <button>Item 4</button>
+        <button>Item 5</button>
+        <button>Item 6</button>
+        <button>Item 7</button>
+        <button>Item 8</button>
+      </div>
+
+      <!-- Content -->
+      <div class="vbox flex">
+
+        <div class="vbox flex scroll hac vac">
+            <h1>This content is centered</h1>
+            Lorem ipsum dolor sit amet.
+        </div>
+
+        <div class="hbox hg3">
+          <div class="vbox p3 flex">
+            <h2>Box 1</h2>
+            Quisque maximus nisl sit amet ante posuere malesuada.
+          </div>
+          <div class="vbox p3 flex">
+            <h2>Box 2</h2>
+            Donec scelerisque dolor dui, at scelerisque sem pulvinar sed. Integer vel ante blandit, posuere velit eu, sollicitudin dui.
+          </div>
+          <div class="vbox p3 flex">
+            <h2>Box 3</h2>
+            Aenean lobortis gravida dictum. Pellentesque vitae sapien libero.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="hbox hg2 p3">
+      <div class="flex">
+        Footer
+      </div>
+      <a href="">About</a>
+      <a href="">Contact</a>
+    </div>
+
+  </body>
+</html>
