@@ -34,7 +34,7 @@ The example below (example.html) is created with Flexit. The body element has a 
 
 ##Inspiration
 Flexit is inspired the HBox and VBox containers in Adobe Flex (AS3) and OOCSS.
-<a href="https://github.com/stubbornella/oocss/wiki" target="_blank">https://github.com/stubbornella/oocss/wiki</a>
+https://github.com/stubbornella/oocss/wiki
 
 ## License
 The MIT License (MIT)
