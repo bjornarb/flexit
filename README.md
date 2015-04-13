@@ -33,7 +33,8 @@ The example below (example.html) is created with Flexit. The body element has a 
 ![Flexit example layout](example.png)
 
 ##Inspiration
-Flexit is inspired the HBox and VBox containers in Adobe Flex (AS3) and OOCSS. https://github.com/stubbornella/oocss/wiki
+Flexit is inspired the HBox and VBox containers in Adobe Flex (AS3) and OOCSS.
+<a href="https://github.com/stubbornella/oocss/wiki" target="_blank">https://github.com/stubbornella/oocss/wiki</a>
 
 ## License
 The MIT License (MIT)
