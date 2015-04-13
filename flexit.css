@@ -58,6 +58,7 @@
 /* full width and full height */
 .wf {width: 100%}
 .hf {height: 100%}
+body.hf {margin: 0}
 
 /* horizontal align children (left, center, right) */
 .hal {-webkit-justify-content: flex-start; justify-content: flex-start}
