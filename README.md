@@ -8,7 +8,7 @@ If you want to use Flexit in production you need to consider browser support. CS
 ##Usage
 Flexit is intended for fixed height application layouts. If you are using it for a full screen application you need to set the height of the html and body tag to 100% by adding the class .hf to both. Flexit can also be used inside a single container, but it needs a fixed height.
 
-Flexit has 2 container classes, .hbox will stack its children horizontally and .vbox vertically. Additional classes will add gap between the children, padding, scrolling and center them horizontally or vertically (omg!). You can add the .flex class to containers that you want to grow to fill available space in the parent container.
+Flexit has 2 container classes, .hbox will stack its children horizontally and .vbox vertically. Additional classes will add gap between children, padding, scrolling and center them horizontally or vertically (omg!). You can add the .flex class to containers that you want to grow to fill available space in the parent container.
 
 ```html
 <!-- Set html to full height -->
@@ -33,7 +33,7 @@ The example below (example.html) is created with Flexit. The body element has a 
 ![Flexit example layout](example.png)
 
 ##Inspiration
-Flexit is inspired the HBox and VBox containers in Adobe Flex (AS3) and OOCSS. https://github.com/stubbornella/oocss/wiki.
+Flexit is inspired the HBox and VBox containers in Adobe Flex (AS3) and OOCSS. https://github.com/stubbornella/oocss/wiki
 
 ## License
 The MIT License (MIT)
