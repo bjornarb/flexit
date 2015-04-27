@@ -61,14 +61,14 @@
 body.hf {margin: 0}
 
 /* horizontal align children (left, center, right) */
-.hal {-webkit-justify-content: flex-start; justify-content: flex-start}
-.hac {-webkit-justify-content: center; justify-content: center}
-.har {-webkit-justify-content: flex-end; justify-content: flex-end}
+.hbox.vat, .vbox.hal {-webkit-align-items: flex-start; align-items: flex-start}
+.hbox.vac, .vbox.hac {-webkit-align-items: center; align-items: center}
+.hbox.vab, .vbox.har {-webkit-align-items: flex-end; align-items: flex-end}
 
 /* vertical align children (top, center, bottom) */
-.vat {-webkit-align-items: flex-start; align-items: flex-start}
-.vac {-webkit-align-items: center; align-items: center}
-.vab {-webkit-align-items: flex-end; align-items: flex-end}
+.hbox.hal, .vbox.vat {-webkit-justify-content: flex-start; justify-content: flex-start}
+.hbox.hac, .vbox.vac {-webkit-justify-content: center; justify-content: center}
+.hbox.har, .vbox.vab {-webkit-justify-content: flex-end; justify-content: flex-end}
 
 /* text align */
 .text-left {text-align: left}
