@@ -85,6 +85,8 @@ body.hf {margin: 0}
 
 /* scroll content */
 .scroll {overflow: auto}
+.hscroll {overflow-x: auto; overflow-y: hidden}
+.vscroll {overflow-y: auto; overflow-x: hidden}
 
 /* debug */
 .debug, .debug * {
