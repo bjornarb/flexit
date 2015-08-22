@@ -88,6 +88,11 @@ body.hf {margin: 0}
 .hscroll {overflow-x: auto; overflow-y: hidden}
 .vscroll {overflow-y: auto; overflow-x: hidden}
 
+/* position */
+.absolute {position:absolute}
+.relative {position:relative}
+.stretch {left: 0; top: 0; right: 0; bottom: 0} /* stretch non flex box to fill flex box */
+
 /* debug */
 .debug, .debug * {
   background: rgba(180,180,180,.1);
