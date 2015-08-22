@@ -78,10 +78,10 @@ body.hf {margin: 0}
 /* padding */
 .p1 {padding: 4px}
 .p2 {padding: 8px}
-.p3 {padding: 12px}
-.p4 {padding: 16px}
-.p5 {padding: 20px}
-.p6 {padding: 24px}
+.p3 {padding: 16px}
+.p4 {padding: 24px}
+.p5 {padding: 32px}
+.p6 {padding: 40px}
 
 /* scroll content */
 .scroll {overflow: auto}
