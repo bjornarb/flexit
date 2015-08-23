@@ -93,6 +93,22 @@ body.hf {margin: 0}
 .relative {position:relative}
 .stretch {left: 0; top: 0; right: 0; bottom: 0} /* stretch non flex box to fill flex box */
 
+/* useful web app classes */
+.text-selection-disabled {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+.text-selection-enabled {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  cursor: text;
+}
+
 /* debug */
 .debug, .debug * {
   background: rgba(180,180,180,.1);
