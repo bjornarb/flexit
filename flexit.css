@@ -109,6 +109,7 @@ body.hf {margin: 0}
   user-select: text;
   cursor: text;
 }
+.word-break-all {word-break: break-all}
 
 /* debug */
 .debug, .debug * {
